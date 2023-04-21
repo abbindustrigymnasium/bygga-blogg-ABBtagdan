@@ -8,6 +8,6 @@ author: Tage Danielsson
 date: 2023-03-30
 ---
 
-# Mattis
+# Bergis
 
-HipHop scenen kommer aldrig vara sig lik i sverige.
+släpper musik varje vecka hela 2023

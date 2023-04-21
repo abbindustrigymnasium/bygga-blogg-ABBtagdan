@@ -1,5 +1,5 @@
 <template>
-    <div class="min-h-[100vh] w-[60%] m-auto shadow-xl p-10">
+    <div class="min-h-[100vh] w-full md:w-[60%] m-auto shadow-xl p-10">
     <NuxtImg :src="data.img" class = "w-full h-80 object-cover" />
     <div class = "p-5">
         <ContentRenderer :value="data"></ContentRenderer>
