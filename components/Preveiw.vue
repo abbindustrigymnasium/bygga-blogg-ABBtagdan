@@ -7,7 +7,7 @@
     <div class="absolute bottom-3 text-center group-hover:scale-110 text-2xl left-[50%] -translate-x-1/2 -translate-y-1/2 text-white">
         {{ post.title }}
     </div>
-    <div class ="absolute hidden text-center w-[60%] group-hover:block text-lg left-[50%] top-[50%] -translate-x-1/2 -translate-y-1/2 text-white">
+    <div class ="absolute hidden text-center w-[60%] lg:w-[80%] xl:w-[60%] group-hover:block text-lg left-[50%] top-[50%] -translate-x-1/2 -translate-y-1/2 text-white">
         {{ post.description }}
     </div>
     <div class ="absolute hidden text-center group-hover:block right-5 top-5 text-sm text-white">
