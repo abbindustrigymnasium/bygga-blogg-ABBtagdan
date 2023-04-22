@@ -1,7 +1,7 @@
 <template>
     <div class="min-h-[100vh] w-full md:w-[60%] m-auto shadow-xl p-10">
     <nuxt-img :src="data.img" class = "w-full h-80 object-cover" />
-    <div class = "p-5 divide-y divide-gray-400">
+    <div class = "p-5 divide-y divide-gray-400 w-full">
         <ContentRenderer :value="data" />
         <div class = "px-5 text-lg text-black my-10">
             <div class = "my-10 flex gap-10">
@@ -26,7 +26,7 @@ const { data } = await useAsyncData('', () => queryContent(`/blog-posts/${route.
 <style scoped>
 :deep(h1) {
     font-size: 35px;
-    margin-top: 30px;
+    margin-top: 15px;
     margin-bottom: 15px;
     font-weight: bold;
 }
