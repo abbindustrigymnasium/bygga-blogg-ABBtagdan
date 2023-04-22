@@ -1,7 +1,7 @@
 <template>
   <div class = "h-full w-full flex transition duration-75 text-shadow" @mouseover="slideshow = false" @mouseleave="{slideshow = true; t = false}">
     <div class="relative h-full w-full overflow-hidden rounded-3xl">
-      <NuxtImg :src="posts[slide].img" class = "h-full w-full object-cover " />
+      <img :src="posts[slide].img" class = "h-full w-full object-cover " />
       <div class = "absolute text-white w-20 divide-y bottom-10 left-10">
         
         <div class = "text-xl pb-2">
@@ -21,8 +21,8 @@
       Läs Mer
       </NuxtLink>
 
-      <NuxtImg src = "arrow.png" @click="slide = (slide + 1) % 3" class = "absolute right-8 top-[50%] -translate-y-[50%] w-10 h-10 hover:scale-110"/>
-      <NuxtImg src = "arrow.png" @click=" {if (slide == 0) slide = 2; else slide --;}" class = "absolute left-8 top-[50%] -translate-y-[50%] rotate-180 w-10 h-10 hover:scale-110"/>
+      <img src = "arrow.png" @click="slide = (slide + 1) % 3" class = "absolute right-8 top-[50%] -translate-y-[50%] w-10 h-10 hover:scale-110"/>
+      <img src = "arrow.png" @click=" {if (slide == 0) slide = 2; else slide --;}" class = "absolute left-8 top-[50%] -translate-y-[50%] rotate-180 w-10 h-10 hover:scale-110"/>
 
 
       <div class = "absolute bottom-10 left-[50%] -translate-x-[50%] w-20 flex justify-around items-center">

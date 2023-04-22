@@ -1,6 +1,5 @@
 <template>
     <div class="min-h-[100vh] w-full md:w-[60%] m-auto shadow-xl p-10">
-    <NuxtImg :src="data.img" class = "w-full h-80 object-cover" />
     <div class = "p-5 divide-y divide-gray-400">
         <ContentRenderer :value="data"></ContentRenderer>
         <div class = "px-5 text-lg text-black my-10">
@@ -56,7 +55,7 @@ const { data } = await useAsyncData('', () => queryContent(`/blog-posts/${route.
 }
 :deep(img){
     width: 100%;
-    height: 20rem;
+    height: 22rem;
     object-fit: cover;
     margin-top: 15px;
     margin-bottom: 15px;
