@@ -18,7 +18,7 @@
 <script setup>
     
 const route = useRoute()
-const { data } = await useAsyncData('', () => queryContent(`/article/${route.params.slug}`).findOne())
+const { data } = await useAsyncData('', () => queryContent(`/article/bergis-slapper-musik-varje-vecka`).findOne())
 
 
 </script>
