@@ -15,5 +15,6 @@
     "@vueuse/core": "^9.13.0",
     "nuxt": "^3.2.3",
     "three": "^0.150.1"
-  }
+  },
+  "@nuxt/content": "npm:@nuxt/content-edge@latest"
 }
