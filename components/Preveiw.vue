@@ -1,7 +1,9 @@
 <template>
     <div class = "relative overflow-hidden mb-2 h-1/2 rounded-3xl">
     <NuxtLink :to="`/article/${post.slug}`" class="w-full group">
-    <img :src = "post.img" class="w-full h-full object-cover object-center blur-none group-hover:blur-sm transition" alt="post" />
+    <NuxtImg :src = "post.img" class="w-full h-full object-cover object-center blur-none group-hover:blur-sm transition" alt="post">
+
+    </NuxtImg>
     <div class="absolute bottom-3 text-center group-hover:scale-110 text-2xl left-[50%] -translate-x-1/2 -translate-y-1/2 text-white">
         {{ post.title }}
     </div>
