@@ -3,7 +3,7 @@
     <nuxt-img :src="data.img" class = "w-full h-80 object-cover" />
     <div class = "p-2 divide-y divide-gray-400 w-full">
             <ContentRenderer :value="data">
-                <ContentRendererMarkdown :value="data" />
+                <ContentRendererMarkdown :value="data" class="lg:text-[20px]" />
             </ContentRenderer>
         <div class = "px-5 text-lg text-black my-10">
             <div class = "my-10 flex gap-10">
@@ -63,9 +63,6 @@ const { data } = await useAsyncData('page-data', () => queryContent(`/article/${
     margin-top: 15px;
     margin-bottom: 15px;
     box-shadow: 2px;
-}
-:deep(){
-    font-size: 20px;
 }
 
 
