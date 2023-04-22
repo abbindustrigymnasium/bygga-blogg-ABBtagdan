@@ -2,7 +2,7 @@
     <div class="min-h-[100vh] w-full md:w-[60%] m-auto shadow-xl p-10">
     <nuxt-img :src="data.img" class = "w-full h-80 object-cover" />
     <div class = "p-5 divide-y divide-gray-400 w-full">
-        <ContentRenderer :value="data" />
+        <ContentDoc></ContentDoc>
         <div class = "px-5 text-lg text-black my-10">
             <div class = "my-10 flex gap-10">
                 <span> {{ data.author }} </span>
@@ -18,7 +18,7 @@
 <script setup>
     
 const route = useRoute()
-const { data } = await useAsyncData('', () => queryContent(`/blog-posts/${route.params.slug}`).findOne())
+const { data } = await useAsyncData('', () => queryContent(`/article/${route.params.slug}`).findOne())
 
 
 </script>

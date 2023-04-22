@@ -13,7 +13,7 @@
 
 <script setup>
 
-let { data } = await useAsyncData('', () => queryContent('/blog-posts').find().then(val => [val.sort((a, b) => (b.date > a.date) ? 1 : -1), val.sort((a, b) => (b.date > a.date) ? 1 : -1).slice(0,3)]))
+let { data } = await useAsyncData('', () => queryContent('/article').find().then(val => [val.sort((a, b) => (b.date > a.date) ? 1 : -1), val.sort((a, b) => (b.date > a.date) ? 1 : -1).slice(0,3)]))
 
 </script>
 
