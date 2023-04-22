@@ -10,6 +10,10 @@ export default defineNuxtConfig({
         netlify: {
             baseURl: process.env.IMAGES_URL
         }
+    },
+    ssr: false,
+    nitro: {
+        preset: 'service-worker'
     }
 })
 
