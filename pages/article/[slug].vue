@@ -3,7 +3,6 @@
     <nuxt-img :src="data.img" class = "w-full h-80 object-cover" />
     <div class = "p-5 divide-y divide-gray-400 w-full">
             <ContentRenderer :value="data">
-                <h1>{{ data.title }}</h1>
                 <ContentRendererMarkdown :value="data" />
             </ContentRenderer>
         <div class = "px-5 text-lg text-black my-10">
