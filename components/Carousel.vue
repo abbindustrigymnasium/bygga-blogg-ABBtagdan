@@ -13,25 +13,25 @@
         
       </div>
 
-      <div class = "absolute w-1/4 bottom-10 right-10 text-lg text-white">
+      <div class = "absolute max-w-[25%] bottom-10 right-10 text-lg text-white">
         {{ posts[slide].description }}
       </div>
       
-      <NuxtLink :to="`/article/${posts[slide].slug}`" class = "text-white absolute text-md font-bold bottom-24 w-40 h-14 flex left-[50%] border-2 justify-center items-center -translate-x-[50%] border-white rounded-full"> 
+      <NuxtLink :to="`/article/${posts[slide].slug}`" class = "text-white absolute text-base hover:scale-110 font-bold bottom-24 w-40 h-14 flex left-[50%] border-2 justify-center items-center -translate-x-[50%] border-white rounded-full"> 
       Läs Mer
       </NuxtLink>
 
-      <NuxtImg src = "arrow.png" @click="slide = (slide + 1) % 3" class = "absolute right-8 top-[50%] -translate-y-[50%] w-10 h-10"/>
-      <NuxtImg src = "arrow.png" @click=" {if (slide == 0) slide = 2; else slide --;}" class = "absolute left-8 top-[50%] -translate-y-[50%] rotate-180 w-10 h-10"/>
+      <NuxtImg src = "arrow.png" @click="slide = (slide + 1) % 3" class = "absolute right-8 top-[50%] -translate-y-[50%] w-10 h-10 hover:scale-110"/>
+      <NuxtImg src = "arrow.png" @click=" {if (slide == 0) slide = 2; else slide --;}" class = "absolute left-8 top-[50%] -translate-y-[50%] rotate-180 w-10 h-10 hover:scale-110"/>
 
 
       <div class = "absolute bottom-10 left-[50%] -translate-x-[50%] w-20 flex justify-around items-center">
-        <div v-if="slide == 0" class = "bg-white rounded-full w-3 h-3"></div>
-        <div v-else class = "bg-gray-400 rounded-full w-3 h-3" @click="slide = 0"></div>
-        <div v-if="slide == 1" class = "bg-white rounded-full w-3 h-3"></div>
-        <div v-else class = "bg-gray-400 rounded-full w-3 h-3" @click="slide = 1"></div>
-        <div v-if="slide == 2" class = "bg-white rounded-full w-3 h-3"></div>
-        <div v-else class = "bg-gray-400 rounded-full w-3 h-3" @click="slide = 2"></div>
+        <div v-if="slide == 0" class = "bg-white rounded-full w-3 h-3 hover:scale-110"></div>
+        <div v-else class = "bg-gray-400 rounded-full w-3 h-3 hover:scale-110" @click="slide = 0"></div>
+        <div v-if="slide == 1" class = "bg-white rounded-full w-3 h-3 hover:scale-110"></div>
+        <div v-else class = "bg-gray-400 rounded-full w-3 h-3 hover:scale-110" @click="slide = 1"></div>
+        <div v-if="slide == 2" class = "bg-white rounded-full w-3 h-3 hover:scale-110"></div>
+        <div v-else class = "bg-gray-400 rounded-full w-3 h-3 hover:scale-110" @click="slide = 2"></div>
       </div>
 
       <div class = "text-white text-lg absolute top-10 right-10"> {{ new Date(posts[slide].date).toLocaleDateString() }} </div>
@@ -51,7 +51,9 @@
 <script setup>
 
  const {posts} = defineProps({
- posts: Object
+ posts: {
+  type: Array,
+ }
  })
 
  const slide = ref(0)

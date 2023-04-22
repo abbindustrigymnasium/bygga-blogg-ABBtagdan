@@ -2,10 +2,10 @@
     <div class="h-[93vh] flex align-center py-2 w-full">
         <div class="grid grid-cols-1 lg:grid-cols-8 h-full w-full grid-rows-1">
             <div class="hidden lg:block col-span-6 mx-2 h-full">
-                <Carousel :posts="data.slice(0,3)" />
+                <Carousel :posts="data[1]" />
             </div>
             <div class = "col-span-2 mx-2 overflow-y-scroll rounded-3xl scrollbar-hide h-full">
-                <Preveiw v-for="post in data" v-bind:key="post._id" :post="post"></Preveiw>
+                <Preveiw v-for="post in data[0]" v-bind:key="post._id" :post="post"></Preveiw>
             </div>
         </div>
     </div>
@@ -13,8 +13,7 @@
 
 <script setup>
 
-let { data } = await useAsyncData('', () => queryContent('/blog-posts').find().then())
-
+let { data } = await useAsyncData('', () => queryContent('/blog-posts').find().then(val => [val.sort((a, b) => (b.date > a.date) ? 1 : -1), val.sort((a, b) => (b.date > a.date) ? 1 : -1).slice(0,3)]))
 
 </script>
 
