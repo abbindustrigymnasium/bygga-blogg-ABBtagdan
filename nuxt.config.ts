@@ -5,5 +5,11 @@ export default defineNuxtConfig({
         '@nuxt/image-edge',
         '@nuxt/content'
     ],
+    image: {
+        provider: 'netlify',
+        netlify: {
+            baseURl: process.env.IMAGES_URL
+        }
+    }
 })
 
