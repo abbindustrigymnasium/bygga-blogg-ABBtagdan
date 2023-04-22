@@ -17,7 +17,7 @@
         {{ posts[slide].description }}
       </div>
       
-      <NuxtLink :to="`/article/${posts[slide].slug}`" class = "text-white absolute text-base hover:scale-110 font-bold bottom-24 w-40 h-14 flex left-[50%] border-2 justify-center items-center -translate-x-[50%] border-white rounded-full z-20"> 
+      <NuxtLink :to="`/article/${posts[slide].slug}/`" class = "text-white absolute text-base hover:scale-110 font-bold bottom-24 w-40 h-14 flex left-[50%] border-2 justify-center items-center -translate-x-[50%] border-white rounded-full z-20"> 
       Läs Mer
       </NuxtLink>
 
