@@ -11,9 +11,5 @@ export default defineNuxtConfig({
             baseURl: process.env.IMAGES_URL
         }
     },
-    ssr: false,
-    nitro: {
-        preset: 'service-worker'
-    }
 })
 
