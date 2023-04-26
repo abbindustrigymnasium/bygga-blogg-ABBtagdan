@@ -1,6 +1,6 @@
 <template>
     <div>
-    <header class="font-bold w-full h-[7vh] flex items-center">
+    <header class="font-bold w-full h-[7vh] flex items-center font-sans">
         <nav class="container mx-auto flex px-6 justify-between text-black">
             <a href="/" class="text-xl">Rytmer.se</a>
             <div class="flex gap-x-10">

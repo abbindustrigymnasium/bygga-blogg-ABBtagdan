@@ -21,6 +21,9 @@
     
 const route = useRoute()
 const { data } = await useAsyncData('page-data', () => queryContent(`/article/${route.params.slug}`).findOne())
+watch(route, async() => {
+    data  = await useAsyncData('page-data', () => queryContent(`/article/${route.params.slug}`).findOne())
+})
 
 
 </script>
