@@ -24,7 +24,7 @@ Albumet Numer släpptes den 24 mars 2023 och just nu är Mattis på album-turne 
 
 ![my image](/vinyl_mattis_numer.jpg)
 
-Jag kan inte riktigt komma på någon artist som verkligen liknar Mattis men när jag lyssnar på låtarna får jag samma lyriska tillfredställning som av Organismen med låtar som "Himlen kan vänta" och "Mvh Johan" men samtidigt den lugnande känslan jag får av Josef Slunges musik med låtar som "Bäddsoffa" och "Toxic / Fake News"
+Jag kan inte riktigt komma på någon artist att likna Mattis med men när jag lyssnar på låtarna får jag samma lyriska tillfredställning som av Organismen med låtar som "Himlen kan vänta" och "Mvh Johan" men samtidigt den lugnande känslan jag får av Josef Slunges musik med låtar som "Bäddsoffa" och "Toxic / Fake News"
 
 ## Highlights
 
@@ -36,11 +36,11 @@ Efter att ha lyssnat på albumet några gånger så har jag några personliga fa
 - Unga viljor viner
 - Stormsvalor
 
-Även om dessa är mina favoriter så är de andra låtarna på albumet helt fantastiska också och att Mattis i grund och botten är en låtskriver fylld av poesi är svårt att missa när man lyssnar på texterna. Vissa rader upprepas flera gånger, exempelvis så sjunger Mattis
+Även om dessa är mina favoriter så är de andra låtarna på albumet också helt fantastiska. Att Mattis i grund och botten är en låtskrivare fylld av poesi är svårt att missa när man lyssnar på texterna. Vissa rader upprepas flera gånger, exempelvis så sjunger Mattis
 
 ### **_" Det är svårare att lova nån förevigt, när förändring är det enda konstanta "_**
 
-i låten Fyr och sedan
+i låten Fyr, och sedan
 
 ### **_" Men det är svårt å lova nån förevigt när det enda konstanta är förändringar "_**
 
@@ -56,12 +56,12 @@ i låten Härifrån.
 
 Några fler favorader är:
 
-- "Lyckan e en fågel som växt sig större, än vad buren är" (Fyr)
+- "Lyckan e en fågel som har växt sig större, än vad buren är" (Fyr)
 - "Jag har sparat alla mina texter länge men på dom bästa raderna är bläcket borta" (Numer)
 - "Jag stänger in sorgerna när dom blir för äkta, hällre fly än fäkta, sånna saker tar tid å greppa." (Still)
-- "Om du vill gå snabbt gå ensam. Om du vill gå långt, gå tillsammans" (Tändstickskungen)
+- "Om du vill gå, snabbt gå ensam. Om du vill gå långt, gå tillsammans" (Tändstickskungen)
 - "Hällre brinna ut än å blekna bort" (Stormsvalor, första raden)
 
 ## Sammanfattning
 
-Om du skulle träffa mig på gatan och säga vilken artist jag känner mig mest excallterad över att följa så skulle jag svara Mattis. Inte bara för att hans musik är unik utan eftersom att han trotts det lyckas skapa den igenkännings-faktor som krävs för att skriva hits. Han gör till skillnad från många andra inte det här genom melodier och flows i samma utsträckning utan genom relaterbara och vackra texter. Att det dessutom kombineras med fantastiska röster och genomtänkta beats gör att Mattis har allt som krävs för att konkurrera med restan av den svenska hip-hop scenen. Men nu är det dags för er själva att uppleva detta genialiska verk, kolla in <u>[Tändstickskungen](https://www.youtube.com/watch?v=ARbeKD5Xa1g)</u>
+Om du skulle träffa mig på gatan och fråga mig vilken artist jag känner mig mest exalterad över att följa så skulle jag svara Mattis. Inte bara för att hans musik är unik utan eftersom att han trots det lyckas skapa den igenkännings-faktor som krävs för att skriva hits. Han gör till skillnad från många andra inte det här genom melodier och flows i samma utsträckning, utan genom relaterbara och vackra texter. Att det dessutom kombineras med fantastiska röster och genomtänkta beats gör att Mattis har allt som krävs för att konkurrera med resten av den svenska hip-hop scenen. Men nu är det dags för er själva att uppleva detta genialiska verk, kolla in <u>[Tändstickskungen](https://www.youtube.com/watch?v=ARbeKD5Xa1g)</u> på youtube.

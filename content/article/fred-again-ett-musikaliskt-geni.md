@@ -9,3 +9,5 @@ date: 2023-04-22
 ---
 
 # Fred Again
+
+Fred again är en DJ, poducent, sångare och låtskrivare från Storbrittanien. Han är mest känd för sina album actual

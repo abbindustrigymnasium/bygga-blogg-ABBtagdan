@@ -38,6 +38,9 @@ const { data } = await useAsyncData('page-data', () => queryContent(`/article/${
     margin-bottom: 15px;
     font-weight: semibold;
 }
+:deep(p) {
+    margin-top:15px;
+}
 
 :deep(h3){
     margin-top: 7px;
