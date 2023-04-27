@@ -1,3 +1,11 @@
+# Sidan
+
+Min layout består av en större carousel med post till vänster som automatiskt byter post mellan de tre senaste om man inte hover:ar musen över den. Man kan också byta post med pilarna eller med prickarna på botten. Till höger har jag en skrollningsbar lista med alla post på bloggen. Att ha en stor bild till vänster och mindre till höger matchar designen till min [inspiration](https://dribbble.com/shots/20649882-Blog-Website-Concept-Homepage).
+
+Min contact page har en mailto-länk till min privata mail och min about page berättar kort om vem jag är och vad bloggen handlar om.
+
+Min sida kan du hitta [här](https://rytmik.netlify.app/) och min inspiration kan du ännu än gång hitta [här](https://dribbble.com/shots/20649882-Blog-Website-Concept-Homepage).
+
 # Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
