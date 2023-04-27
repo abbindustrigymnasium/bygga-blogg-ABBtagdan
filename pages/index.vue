@@ -4,7 +4,7 @@
             <div class="hidden lg:block col-span-6 mx-2 h-full">
                 <Carousel :posts="data[1]" />
             </div>
-            <div class = "col-span-2 mx-2 overflow-y-scroll rounded-3xl scrollbar-hide h-full">
+            <div class = "col-span-2 mr-2 overflow-y-scroll rounded-3xl scrollbar-hide h-full">
                 <Preveiw v-for="post in data[0]" v-bind:key="post._id" :post="post"></Preveiw>
             </div>
         </div>
