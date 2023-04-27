@@ -20,12 +20,7 @@
 <script setup>
     
 const route = useRoute()
-let { data } = await useAsyncData('page-data', () => queryContent(`/article/${route.params.slug}`).findOne())
-watch(route, async() => {
-    console.log(route)
-    data  = await useAsyncData('page-data', () => queryContent(`/article/${route.params.slug}`).findOne())
-})
-
+const { data } = await useAsyncData('page-data', () => queryContent(`/article/${route.params.slug}`).findOne())
 
 </script>
 

@@ -1,6 +1,6 @@
 <template>
     <div class = "relative overflow-hidden mb-2 h-1/2 rounded-3xl">
-    <NuxtLink :to="`/article/${post.slug}/`" class="w-full group">
+    <NuxtLink :to="`article/${post.slug}/`" class="w-full group">
     <nuxt-img :src = "post.img" class="w-full h-full object-cover object-center blur-none group-hover:blur-sm transition" alt="post">
 
     </nuxt-img>
