@@ -1,9 +1,9 @@
 <template>
-    <div class="min-h-[100vh] w-full md:w-[60%] m-auto shadow-xl p-10">
+    <div class="min-h-[100vh] w-full md:w-[80%] lg:w-[60%] m-auto shadow-xl p-10">
     <nuxt-img :src="data.img" class = "w-full h-80 object-cover" />
     <div class = "p-2 divide-y divide-gray-400 w-full">
             <ContentRenderer :value="data">
-                <ContentRendererMarkdown :value="data" class="lg:text-[20px]" />
+                <ContentRendererMarkdown :value="data" class="md:text-[20px]" />
             </ContentRenderer>
         <div class = "px-5 text-lg text-black my-10">
             <div class = "my-10 flex gap-10">

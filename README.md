@@ -6,6 +6,8 @@ Min contact page har en mailto-länk till min privata mail och min about page be
 
 Min sida kan du hitta [här](https://rytmik.netlify.app/) och min inspiration kan du ännu än gång hitta [här](https://dribbble.com/shots/20649882-Blog-Website-Concept-Homepage).
 
+Sidan är reaktiv och på mindre skärmar försvinner carousel och endast listan syns. dessutom har jag än mindre width på den detaljerade vyn på större skärmar och full width på mindre skärmar.
+
 # Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
