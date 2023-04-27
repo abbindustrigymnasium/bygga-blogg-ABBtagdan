@@ -62,7 +62,7 @@
  const t = ref(false)
 
  function next() {
- setTimeout(() => {if (t.value && slideshow.value){slide.value = (slide.value + 1)%3; t.value = false;} else {t.value = true}; next()}, 2000)
+ setTimeout(() => {if (t.value && slideshow.value){slide.value = (slide.value + 1)%3; t.value = false;} else {t.value = true}; next()}, 1500)
  }
 
 next()
