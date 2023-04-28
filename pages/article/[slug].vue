@@ -47,7 +47,7 @@ const { data } = await useAsyncData('page-data', () => queryContent(`/article/${
 }
 
 :deep(ul) {
-  list-style-type: circle;
+  list-style-type: disc;
   margin-top: 7px;
   margin-bottom: 7px; 
   padding-left: 15px;
