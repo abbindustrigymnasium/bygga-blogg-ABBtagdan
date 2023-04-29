@@ -8,6 +8,8 @@ Min sida kan du hitta [här](https://rytmik.netlify.app/) och min inspiration ka
 
 Sidan är reaktiv och på mindre skärmar försvinner carousel och endast listan syns. dessutom har jag än mindre width på den detaljerade vyn på större skärmar och full width på mindre skärmar.
 
+Live Netlify Image av sidan: [![Netlify Status](https://api.netlify.com/api/v1/badges/7fe3f672-e0d6-44e5-9d5c-cbfa168ada7a/deploy-status)](https://app.netlify.com/sites/rytmer/deploys)
+
 # Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
