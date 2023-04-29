@@ -1,7 +1,7 @@
 ---
 title: Fred Again..
 type: Artist
-description:
+description: Ett unikt musikaliskt geni
 slug: fred-again-ett-musikaliskt-geni
 img: Fred_again.jpg
 author: Tage Danielsson
