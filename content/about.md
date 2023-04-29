@@ -2,7 +2,7 @@
 
 ## Blogg
 
-Mitt namn är Tage Danielsson och Rytmik är min blogg där jag skriver om den musik jag lyssnar på just nu. Innehållet kommer bestå av recensioner av låtar och artister. I framtiden hoppas jag även på att kanske få intervjua någon artist.
+Mitt namn är Tage Danielsson och Rytmer är min blogg där jag skriver om den musik jag lyssnar på just nu. Innehållet kommer bestå av recensioner av låtar och artister. I framtiden hoppas jag även på att kanske få intervjua någon artist.
 
 ## Musik
 
