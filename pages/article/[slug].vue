@@ -8,7 +8,7 @@
         <div class = "px-5 text-lg text-black my-10">
             <div class = "my-10 flex gap-10">
                 <span> {{ data.author }} </span>
-                <span class = "font-light"> {{ new Date(data.date).toLocaleDateString() }}</span>
+                <span class = "font-light text-sm md:text-md"> {{ new Date(data.date).toLocaleDateString() }}</span>
             </div>
             
         </div>
