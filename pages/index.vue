@@ -18,7 +18,7 @@ let { data } = await useAsyncData('', () => queryContent('/article').find().then
 useHead({
     title: 'Rytmer',
     meta: [
-        { name: 'description', content: 'Rytmik är min blogg där jag skriver om den musik jag lyssnar på just nu. Innehållet kommer bestå av recensioner av låtar och artister. I framtiden hoppas jag även på att kanske få intervjua någon artist.' }
+        { name: 'description', content: 'Rytmer är min blogg där jag skriver om den musik jag lyssnar på just nu. Innehållet kommer bestå av recensioner av låtar och artister. I framtiden hoppas jag även på att kanske få intervjua någon artist.' }
     ],
 })
 
