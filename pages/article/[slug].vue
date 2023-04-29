@@ -22,7 +22,7 @@
 const route = useRoute()
 const { data } = await useAsyncData('page-data', () => queryContent(`/article/${route.params.slug}`).findOne())
 useHead({
-    meta: [{ property: 'og:title', content: `Rytmik - ${data.value.title}` }],
+    meta: [{ property: 'og:title', content: `Rytmer - ${data.value.title}` }],
 })
 
 </script>
