@@ -8,7 +8,7 @@
         <div class = "px-5 text-lg text-black my-10">
             <div class = "my-10 flex gap-10">
                 <span> {{ data.author }} </span>
-                <span class = "font-light text-sm md:text-md"> {{ new Date(data.date).toLocaleDateString() }}</span>
+                <span class = "font-light text-[1rem] md:text-lg"> {{ new Date(data.date).toLocaleDateString() }}</span>
             </div>
             
         </div>
@@ -21,6 +21,9 @@
     
 const route = useRoute()
 const { data } = await useAsyncData('page-data', () => queryContent(`/article/${route.params.slug}`).findOne())
+useHead({
+    meta: [{ property: 'og:title', content: `Rytmik - ${data.value.title}` }],
+})
 
 </script>
 

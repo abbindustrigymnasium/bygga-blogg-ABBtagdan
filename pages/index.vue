@@ -15,6 +15,13 @@
 
 let { data } = await useAsyncData('', () => queryContent('/article').find().then(val => [val.sort((a, b) => (b.date > a.date) ? 1 : -1), val.sort((a, b) => (b.date > a.date) ? 1 : -1).slice(0,3)]))
 
+useHead({
+    title: 'Rytmik',
+    meta: [
+        { name: 'description', content: 'Rytmik är min blogg där jag skriver om den musik jag lyssnar på just nu. Innehållet kommer bestå av recensioner av låtar och artister. I framtiden hoppas jag även på att kanske få intervjua någon artist.' }
+    ],
+})
+
 </script>
 
 <style>
