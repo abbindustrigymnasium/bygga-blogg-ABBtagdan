@@ -1,7 +1,7 @@
 <template>
   <div class = "h-full w-full flex transition duration-75 text-shadow" @mouseover="slideshow = false" @mouseleave="{slideshow = true; t = false}">
     <div class="relative h-full w-full overflow-hidden rounded-3xl">
-      <nuxt-img :src="posts[slide].img" class = "h-full w-full object-cover" />
+      <nuxt-img :src="posts[slide].img" class = "h-full w-full object-cover object-center" />
       <div class = "absolute text-white w-20 divide-y bottom-10 left-10 z-20">
         
         <div class = "text-xl pb-2">

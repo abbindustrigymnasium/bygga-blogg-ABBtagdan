@@ -1,6 +1,6 @@
 <template>
     <div class="min-h-[93vh] w-full md:w-[80%] lg:w-[60%] m-auto shadow-xl p-10">
-    <nuxt-img :src="data.img" class = "w-full h-80 object-cover" />
+    <nuxt-img :src="data.img" class = "w-full h-80 object-cover object-center" />
     <div class = "p-2 divide-y divide-gray-400 w-full">
             <ContentRenderer :value="data">
                 <ContentRendererMarkdown :value="data" class="md:text-[20px]" />
@@ -68,6 +68,7 @@ useHead({
     margin-top: 15px;
     margin-bottom: 15px;
     box-shadow: 2px;
+    object-position: center;
 }
 
 
