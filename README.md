@@ -4,7 +4,7 @@ Min layout består av en större carousel med post till vänster som automatiskt
 
 Min contact page har en mailto-länk till min privata mail och min about page berättar kort om vem jag är och vad bloggen handlar om.
 
-Min sida kan du hitta [här](https://rytmik.netlify.app/) och min inspiration kan du ännu än gång hitta [här](https://dribbble.com/shots/20649882-Blog-Website-Concept-Homepage).
+Min sida kan du hitta [här](https://rytmer.netlify.app/) och min inspiration kan du ännu än gång hitta [här](https://dribbble.com/shots/20649882-Blog-Website-Concept-Homepage).
 
 Sidan är reaktiv och på mindre skärmar försvinner carousel och endast listan syns. dessutom har jag än mindre width på den detaljerade vyn på större skärmar och full width på mindre skärmar.
 
